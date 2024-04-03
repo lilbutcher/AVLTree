@@ -67,7 +67,7 @@ class AVLTree {
   // Destructor
   ~AVLTree() { clear(root); }
   //TODO конструктор копирования
-  //TODO конструкторы и присваения
+  //TODO конструкторы и присвоения
 
   void clear(Node *node);
   int getHeight(Node *node);
